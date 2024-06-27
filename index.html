@@ -320,6 +320,25 @@
 <link href='/feed' rel='alternate' title='RSS feed for incidents reported for ‎' type='application/rss+xml'>
 
 <script async='' src='https://www.googletagmanager.com/gtag/js?id=AW-10805602682'></script>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyAueHTeeM4-j5Fhmf_9TCrNvJOVM3OC2sM",
+    authDomain: "status-uptime.firebaseapp.com",
+    projectId: "status-uptime",
+    storageBucket: "status-uptime.appspot.com",
+    messagingSenderId: "838274379454",
+    appId: "1:838274379454:web:d4344d74d6f03c43eb78ef"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
